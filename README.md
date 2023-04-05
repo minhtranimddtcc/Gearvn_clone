@@ -1,7 +1,7 @@
 # Gearvn_clone
   HƯỚNG DẪN SỬ DỤNG SOURCE
 
-+ B1: Tải virtual host laragon php 7.4 (https://windows.php.net/download/)
++ B1: Tải virtual host laragon (https://laragon.org/download/index.html) & php 7.4 (https://windows.php.net/download/)
 
 + B2: tài thêm NodeJS( recomend bản 14.16.1 để ổn định là tối ưu nhất)
 
