@@ -404,7 +404,7 @@ function Cart(props) {
               <div className="site-content-inner">
                 <div className="woocommerce">
                   <div className="woocommerce-notices-wrapper">
-                    <div className="gearvn-cart-empty">
+                    <div className="ezpc-cart-empty">
                       <img
                         className="lazy loaded"
                         src="https://beta.gearvn.com/wp-content/themes/gearvn-electro-child-v1/assets/images/empty-cart.png"

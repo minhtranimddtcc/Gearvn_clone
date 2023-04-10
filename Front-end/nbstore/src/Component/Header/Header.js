@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Badge } from "react-bootstrap";
-import logo from "../../assets/logo-nbstore.png";
+import logo from "../../assets/ezpc_logo_horizontal.png";
 import { Link,Redirect,useLocation } from "react-router-dom";
 import "./Header.css";
 import axios from "axios";
@@ -44,17 +44,17 @@ function Header() {
   return (
     <>
       <div className="fix-xxx">
-        <div className="gearvn-top-banner-block">
+        <div className="ezpc-top-banner-block">
           <Link to="/">
-            <div className="gearvn-top-banner oktr"></div>
+            <div className="ezpc-top-banner oktr"></div>
           </Link>
         </div>
         <div className="headerxxx">
-          <div className="container gearvn-content-section">
+          <div className="container ezpc-content-section">
             <div className="row">
               <div className="left_header" style={{ zIndex: 997 }}>
                 <Link to="/">
-                  <img src={logo} title="Logo" alt="NBSTORE" />
+                  <img src={logo} title="Logo" alt="EZPC" />
                 </Link>
               </div>
 
@@ -117,55 +117,55 @@ function Header() {
                   </div>
                 </div>
                 <div className=" pdl0 fl1 ">
-                  <div className="gearvn-right-top-block">
+                  <div className="ezpc-right-top-block">
                     {userLoged.TenNguoidung !==undefined ? (
                       <div>
                         <Link
                           to="/account-order"
-                          className="gearvn-header-top-item"
+                          className="ezpc-header-top-item"
                         >
                           <img src={userLoged.Anh != null? userLoged.Anh: "//theme.hstatic.net/1000026716/1000440777/14/ak3.png?v=19349"} alt="avt-user" className="avt__user" />
                           <div className="header-right-description">
-                            <div className="gearvn-text">
+                            <div className="ezpc-text">
                               {userLoged.TenNguoidung}
                             </div>
                           </div>
                         </Link>
                         <Link to="/"
-                          className="gearvn-header-top-item"
+                          className="ezpc-header-top-item"
                           onClick={handleLogout}
                         >
                           <img src="//theme.hstatic.net/1000026716/1000440777/14/ak2.png?v=19762" />
                           <div className="header-right-description">
-                            <div className="gearvn-text">Đăng xuất</div>
+                            <div className="ezpc-text">Đăng xuất</div>
                           </div>
                         </Link>
                       </div>
                     ) : (
                       <div>
-                        <Link to="/Register" className="gearvn-header-top-item">
+                        <Link to="/Register" className="ezpc-header-top-item">
                           <img src="//theme.hstatic.net/1000026716/1000440777/14/ak1.png?v=19349" />
                           <div className="header-right-description">
-                            <div className="gearvn-text">Đăng ký</div>
+                            <div className="ezpc-text">Đăng ký</div>
                           </div>
                         </Link>
 
-                        <Link to="/Login" className="gearvn-header-top-item">
+                        <Link to="/Login" className="ezpc-header-top-item">
                           <img src="//theme.hstatic.net/1000026716/1000440777/14/ak3.png?v=19349" />
                           <div className="header-right-description">
-                            <div className="gearvn-text">Đăng nhập</div>
+                            <div className="ezpc-text">Đăng nhập</div>
                           </div>
                         </Link>
                       </div>
                     )}
                     <div>
-                      <Link className="gearvn-header-top-item" to="/Promotion-information">
+                      <Link className="ezpc-header-top-item" to="/Promotion-information">
                         <img src="//theme.hstatic.net/1000026716/1000440777/14/ak4.png?v=19349" />
                         <div className="header-right-description">
-                          <div className="gearvn-text">Khuyến mãi</div>
+                          <div className="ezpc-text">Khuyến mãi</div>
                         </div>
                         </Link>
-                      <Link to="/cart" className="gearvn-header-top-item rela">
+                      <Link to="/cart" className="ezpc-header-top-item rela">
                         <div>
                           <Badge variant="danger">
                             {cartFromLocalStorage.length}
@@ -173,13 +173,13 @@ function Header() {
                         </div>
                         <img src="//theme.hstatic.net/1000026716/1000440777/14/ak5.png?v=19349" />
                         <div className="header-right-description">
-                          <div className="gearvn-text">Giỏ hàng</div>
+                          <div className="ezpc-text">Giỏ hàng</div>
                         </div>
                       </Link>
                     </div>
                   </div>
                 </div>
-                <div className="gearvn-info-top">
+                <div className="ezpc-info-top">
                   <ul>
                     <li>
                       <span>
@@ -226,7 +226,7 @@ function Header() {
             </div>
           </div>
         </div>
-        <div className="gearvn-content-section padding-10-0 hidden-xs hidden-sm container">
+        <div className="ezpc-content-section padding-10-0 hidden-xs hidden-sm container">
           <div className="content-flex top-header-bar">
           <Link to="/Product-Portffolio">
               <span className="style-nav-fix hidden">
@@ -234,8 +234,8 @@ function Header() {
                 Danh mục sản phẩm
               </span>
             </Link>
-            <div className="gearvn-header-navigation-right content-flex">
-              <a className="gearvn-header-navigation-item recently-product-item header-navigation-recently-products ">
+            <div className="ezpc-header-navigation-right content-flex">
+              <a className="ezpc-header-navigation-item recently-product-item header-navigation-recently-products ">
                 <div className="xxxkt">
                   <img src="//theme.hstatic.net/1000026716/1000440777/14/xk1s.png?v=19349" />
 
@@ -244,7 +244,7 @@ function Header() {
                 Tổng hợp Khuyến mãi
               </a>
               
-              <Link to="/PaymentGuide" className="gearvn-header-navigation-item recently-product-item header-navigation-recently-products ">
+              <Link to="/PaymentGuide" className="ezpc-header-navigation-item recently-product-item header-navigation-recently-products ">
                 <div className="xxxkt">
                     <img src="//theme.hstatic.net/1000026716/1000440777/14/xk2.png?v=19349" />
 
@@ -252,7 +252,7 @@ function Header() {
                   </div>
                 Hướng dẫn thanh toán
               </Link>
-              <a className="gearvn-header-navigation-item recently-product-item header-navigation-recently-products ">
+              <a className="ezpc-header-navigation-item recently-product-item header-navigation-recently-products ">
                 <div className="xxxkt">
                   <img src="//theme.hstatic.net/1000026716/1000440777/14/xk2.png?v=19349" />
 
@@ -260,7 +260,7 @@ function Header() {
                 </div>
                 Hướng dẫn trả góp
               </a>
-              <a className="gearvn-header-navigation-item recently-product-item header-navigation-recently-products ">
+              <a className="ezpc-header-navigation-item recently-product-item header-navigation-recently-products ">
                 <div className="xxxkt">
                   <img src="//theme.hstatic.net/1000026716/1000440777/14/xk4.png?v=19349" />
 
@@ -268,7 +268,7 @@ function Header() {
                 </div>
                 Chính sách bảo hành
               </a>
-              <a className="gearvn-header-navigation-item recently-product-item header-navigation-recently-products ">
+              <a className="ezpc-header-navigation-item recently-product-item header-navigation-recently-products ">
                 <div className="xxxkt">
                   <img src="//theme.hstatic.net/1000026716/1000440777/14/xk5.png?v=19349" />
 

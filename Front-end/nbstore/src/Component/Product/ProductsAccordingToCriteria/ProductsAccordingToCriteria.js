@@ -22,7 +22,7 @@ export default function ProductsAccordingToCriteria(props) {
       <div id="featured-product">
         <div style={{ position: "relative" }}>
           <h2 className="new-product-title">{title}</h2>
-          <Link className="gearvn-new-products-hot-view-all" to={`collections/${id}`}>
+          <Link className="ezpc-new-products-hot-view-all" to={`collections/${id}`}>
             Xem tất cả
             <i className="fa fa-chevron-right"></i>
           </Link>

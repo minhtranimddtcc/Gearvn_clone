@@ -220,10 +220,10 @@ i.cs-vnpay{
     background-position:-73px -27px ;
     margin-bottom: 15px;
 }
-.gearvn-cart-empty{
+.ezpc-cart-empty{
     margin-top: 50px;
 }
-.gearvn-cart-empty img {
+.ezpc-cart-empty img {
     width: 100%;
     margin-left: 30%;
     max-width: 420px;
@@ -231,7 +231,7 @@ i.cs-vnpay{
 img.lazy {
     min-height: 1px;
 }
-.gearvn-cart-empty>p {
+.ezpc-cart-empty>p {
     margin: 25px 0;
     font-size: 26px;
     font-weight: 600;
