@@ -11,7 +11,7 @@ export default function ProductBestSellingByBrand(props) {
     <div id="featured-product">
       <div style={{ position: "relative" }}>
         <h2 className="new-product-title">Deal Hot Trong Tháng</h2>
-        <Link className="gearvn-new-products-hot-view-all" to="#">
+        <Link className="ezpc-new-products-hot-view-all" to="#">
           Xem tất cả
           <i className="fa fa-chevron-right"></i>
         </Link>

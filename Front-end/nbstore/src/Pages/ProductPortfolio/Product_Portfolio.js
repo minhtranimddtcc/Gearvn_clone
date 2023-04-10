@@ -1,6 +1,6 @@
 import React from "react";
 import "./Product_Portfolio.css";
-import Logo from "../../assets/logo-nbstore.png";
+import Logo from "../../assets/ezpc_logo.png";
 import { Link } from "react-router-dom";
 function Product_Portfolio() {
   return (
@@ -8,8 +8,8 @@ function Product_Portfolio() {
       <div className="ladi-wraper">
         <div id="SECTION4" className="ladi-section">
           <div className="ladi-section-background"></div>
-          <div className="ladi-container">
-            <Link to="/" id="IMAGE120" className="ladi-element">
+          <div className="ladi-container" id="IMAGE120" >
+            <Link to="/" className="ladi-element">
               <img src={Logo} alt="logo" />
             </Link>
           </div>

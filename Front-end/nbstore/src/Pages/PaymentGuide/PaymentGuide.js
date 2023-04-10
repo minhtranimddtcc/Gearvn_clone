@@ -1,7 +1,7 @@
 import React from "react";
 import "./PaymentGuide.css";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/logo-nbstore.png";
+import Logo from "../../assets/ezpc_logo_horizontal.png";
 import PaymentMOMO from "../../assets/paymentMoMo.PNG";
 function PaymentGuide() {
   return (

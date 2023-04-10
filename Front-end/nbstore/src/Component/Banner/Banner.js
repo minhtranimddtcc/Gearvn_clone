@@ -24,18 +24,18 @@ import axios from "axios";
 
   return (
     <>
-      <div className="gearvn-header-navigation ">
-        <div className="row gearvn-content-section gearvn-header-navigation-content padding-10-0 container">
-          <div className="gearvn-header-menu">
-            <div className="cat-menu gearvn-cat-menu">
+      <div className="ezpc-header-navigation ">
+        <div className="row ezpc-content-section ezpc-header-navigation-content padding-10-0 container">
+          <div className="ezpc-header-menu">
+            <div className="cat-menu ezpc-cat-menu">
               <nav id="megamenu-nav" className="megamenu-nav">
                 <ol className="megamenu-nav-main">
                  {typeProduct.map((item, index)=>(
                        <li className="cat-menu-item " key={index}>
-                       <Link className="gearvn-cat-menu-item" to={`/collections/${item.id}`}>
-                         <div className="gearvn-cat-menu-icon" dangerouslySetInnerHTML={{__html:item.icon}}>
+                       <Link className="ezpc-cat-menu-item" to={`/collections/${item.id}`}>
+                         <div className="ezpc-cat-menu-icon" dangerouslySetInnerHTML={{__html:item.icon}}>
                          </div>
-                         <span className="gearvn-cat-menu-name">{item.TenLoai}</span>
+                         <span className="ezpc-cat-menu-name">{item.TenLoai}</span>
                        </Link>
                        <div className="megamenu absolute-center level0 xlab_grid_container" style={{display:"block"}}>
                           <div className="column xlab_column_5_5">
@@ -54,8 +54,8 @@ import axios from "axios";
               </nav>
             </div>
           </div>
-          <div className="gearvn-header-navigation-block">
-            <div className="gearvn-header-banner">
+          <div className="ezpc-header-navigation-block">
+            <div className="ezpc-header-banner">
               <div className="left">
                 <div className="slider-wrap">
                   <Carousel>
@@ -96,7 +96,7 @@ import axios from "axios";
           </div>
         </div>
       </div>
-      <div className=" gearvn-content-section i100 mb-10" id="xxx-banner">
+      <div className=" ezpc-content-section i100 mb-10" id="xxx-banner">
         <div className="row row-margin-small">
           <div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mb-10 col-padding-small">
             <div className="border-rus">
