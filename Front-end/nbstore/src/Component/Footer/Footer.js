@@ -7,10 +7,10 @@ function Footer(props) {
         <div className="container" style={{ display: "flex" }}>
           <div id="user1" className="col-sm-4 col-xs-12">
             <div className="moduletable">
-              <h3>NBSTORE Uy tín số 1</h3>
+              <h3>EZPC Uy tín số 1</h3>
               <div className="custom">
                 <h3 className="title-footer-2">
-                  Email: cskh@gearvn.com
+                  Email: cskh@ezpc.com
                   <br />
                 </h3>
                 <p style={{ fontSize: "14px" }}>

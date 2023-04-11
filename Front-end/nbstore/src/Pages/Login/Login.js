@@ -135,7 +135,7 @@ function Login() {
         <div id="layout-page-login" className="container">
           <div id="customer-login">
             <span className="header-contact header-page clearfix">
-              <h5 id="title-login">Chào mừng bạn đến NBSTORE</h5>
+              <h5 id="title-login">Chào mừng bạn đến EZPC</h5>
             </span>
             <div id="login" className="userbox">
               <form onSubmit={handleSubmit(onSubmit)}>
