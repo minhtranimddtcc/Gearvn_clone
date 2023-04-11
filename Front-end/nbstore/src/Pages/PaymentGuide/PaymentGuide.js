@@ -27,7 +27,7 @@ function PaymentGuide() {
               <h3 className="ladi-headline">HƯỚNG DẪN THANH TOÁN</h3>
             </div>
             <div id="HEADLINE127" className="ladi-element">
-              <h3 className="ladi-headline">KHI MUA HÀNG TẠI NBSTORE</h3>
+              <h3 className="ladi-headline">KHI MUA HÀNG TẠI EZPC</h3>
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@ function PaymentGuide() {
                 Hãy mở Ví MoMo của bạn quét mã QR trên để hoàn tất việc đặt hàng.
                 <br/>
                 Vậy là bạn đã hoàn thành một bước mua hàng online tại 
-                <span style={{color: 'red'}}> NBSTORE </span>
+                <span style={{color: 'red'}}> EZPC </span>
                 một cách dể dàng và tiện lợi chưa đến 2 phút.
                 </h3>
             </div>
@@ -188,7 +188,7 @@ function PaymentGuide() {
                 Hãy đăng nhập VNpay trên để hoàn tất việc đặt hàng.
                 <br/>
                 Vậy là bạn đã hoàn thành một bước mua hàng online tại 
-                <span style={{color: 'red'}}> NBSTORE </span>
+                <span style={{color: 'red'}}> EZPC </span>
                 một cách dể dàng và tiện lợi chưa đến 2 phút.
                 </h3>
             </div>
@@ -231,7 +231,7 @@ function PaymentGuide() {
                 Hãy đăng nhập Paypal trên để hoàn tất việc đặt hàng.
                 <br/>
                 Vậy là bạn đã hoàn thành một bước mua hàng online tại 
-                <span style={{color: 'red'}}> NBSTORE </span>
+                <span style={{color: 'red'}}> EZPC </span>
                 một cách dể dàng và tiện lợi chưa đến 2 phút.
                 </h3>
             </div>
